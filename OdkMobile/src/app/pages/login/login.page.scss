@@ -1,0 +1,17 @@
+.padding{
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.logo{
+    height: 150px;
+    position: relative;
+}
+
+.logo ion-icon{
+    position: absolute;
+    font-size: 6em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

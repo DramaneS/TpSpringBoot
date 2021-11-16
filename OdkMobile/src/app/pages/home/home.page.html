@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>
+      Acceuil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="bn">
+    <ion-list class="list">
+      <h4>Bienvenue  {{nom}} {{prenom}}</h4>
+      <h6 class="vs">vous etes connecté avec le login <b>{{username}}</b></h6>
+      <h6>A la date du </h6>
+      {{myDate| date:'dd MM YYYY HH:mm'}}
+    </ion-list>
+    
+  </div>
+</ion-content>
